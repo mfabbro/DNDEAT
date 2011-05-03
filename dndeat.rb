@@ -147,19 +147,6 @@ class Encounter
     return true
   end
 
-=begin
-  def self.create
-    config = Display::MenuPrompt.new('Encounter Menu')
-    config.add! NEW_ENCOUNTER
-    config.add! LOAD_ENCOUNTER
-    sel = config.prompt!
-    case sel
-    when NEW_ENCOUNTER  then Encounter.new
-    when LOAD_ENCOUNTER then Encounter.loade
-    end
-  end
-=end
-
   def edit
     loop do
       table = Display::Table.new(@createview, [['Name', Display::ALPHANUMERIC_FIELD]])
@@ -342,10 +329,6 @@ class Encounter
     @characters.each{|c| c.under_the_gun ? yield(c) : c}
   end
 end
-
-#
-# T E S T
-#
 
 if (__FILE__ == $0) 
   loop do
