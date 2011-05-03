@@ -52,5 +52,7 @@ Only requires ruby and the yaml library.
   and encounter tables.
 - Allow the user to add/remove character attributes. This 
   would allow the programme to be used for other RPGs.
-
+- Implement display.rb using sinatra or other library to allow 
+  remote interaction through a web-browser with a friendier 
+  UI.
 -------------------------------------------------------------------
