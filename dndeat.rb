@@ -4,7 +4,6 @@ require 'rubygems'
 require 'readline'
 require 'yaml'
 require 'display'
-require 'pp'
 #
 # Create saves directory stucture
 #
@@ -139,7 +138,7 @@ class Encounter
 
   def initialize(loadfile=[])
     # Can modify the Table views here by changing the attributes shown.
-    # Eventually will add the feature were the user can modify these arrays.
+    # Eventually will add the feature where the user can modify these arrays.
     @createview = ['Name', 'AC', 'Ref', 'Will','Fort', 'Notes']
     @combatview = ['Init', 'Name', 'HP', 'AC', 'Notes']
     @characters = loadfile
