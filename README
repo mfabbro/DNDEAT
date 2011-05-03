@@ -50,7 +50,7 @@ Only requires ruby and the yaml library.
 -------------------------------------------------------------------
 - Allow the user to specify what attributes are shown in the combat
   and encounter tables.
-- Allow the user to add/remove character attributes types. This 
+- Allow the user to add/remove character attributes. This 
   would allow the programme to be used for other RPGs.
 
 -------------------------------------------------------------------
