@@ -1,0 +1,56 @@
+-------------------------------------------------------------------
+README  : Dungeons and Dragons Encounter Assistant Tool
+Version : 1.0
+Author  : Mark Fabbro
+Date    : 2011/05/03
+ 
+-------------------------------------------------------------------
+  Description:
+-------------------------------------------------------------------
+A tool to help speed up DND combat overhead by maintaining 
+character order, HP and notes. Additionally, characters and 
+encounters can be saved/edited/loaded at any time allowing the DM 
+to modify the encounter even after combat has commenced.
+
+Please contact me on GitHub if there are any bugs that need to be 
+fixed. This project was a procrastination task and is bound to have
+some.
+
+-------------------------------------------------------------------
+  User Guide:
+-------------------------------------------------------------------
+run 'ruby dndeat.rb'
+
+All save files are maintained in a directory called 'saves' 
+which resides in the same location as the dndeat.rb file.
+
+-  <enter> is used to confirm all input
+-  All menus that are enumerated require the number to be used as the 
+   selection key.
+-  Most fields can be left blank, however, certain fields won't allow
+   the programme to continue until they have been filled with datum.
+-  All fields have a type requirement. If alphanumeric values are
+   used for a numeric field the programme won't proceed.
+-  Input fields have history and this can be accessed using the
+   up/down-arrow keys. This is mostly useful when the user 
+   accidentally chooses to modify a character's attribute, the history
+   will always contain the last value stored for that attribute.
+-  If you want to see the full details for any character just use
+   'Edit Character' at any time. 
+-  Most menus will escape back to their previous location if <enter> is
+   pressed and no selection key chosen.
+
+-------------------------------------------------------------------
+  Installation:
+-------------------------------------------------------------------
+Only requires ruby and the yaml library.
+
+-------------------------------------------------------------------
+  TODO:
+-------------------------------------------------------------------
+- Allow the user to specify what attributes are shown in the combat
+  and encounter tables.
+- Allow the user to add/remove character attributes types. This 
+  would allow the programme to be used for other RPGs.
+
+-------------------------------------------------------------------
