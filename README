@@ -39,6 +39,11 @@ which resides in the same location as the dndeat.rb file.
    'Edit Character' at any time. 
 -  Most menus will escape back to their previous location if <enter> is
    pressed and no selection key chosen.
+-  Try to keep character names unique. The programme will march on
+   if there are duplicates (this tends to happen when merging 
+   similar encounter saves), but, when you edit a character who has
+   a name shared by others, all character who share this name will
+   go through the editing menu, one by one.
 
 -------------------------------------------------------------------
   Installation:
